@@ -5,16 +5,15 @@ import "./style.css";
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
-window.onload = function() {
-  const who = ["The dog", "My grandma", "His turtle", "My bird"];
+wwindow.onload = function() {
+  const who = ["My dog", "the cat", "Her turtle", "My bird"];
   const action = ["ate", "peed", "crushed", "broke"];
-  const what = ["my homework", "the keys", "the car"];
+  const what = ["my homework", "the keys", "the car", "the cake"];
   const when = [
-    "before the class",
+    "at night",
     "right on time",
-    "when I finished",
-    "during my lunch",
-    "while I was praying"
+    "after work",
+    "while I was crying"
   ];
 
   function generarExcusa() {
