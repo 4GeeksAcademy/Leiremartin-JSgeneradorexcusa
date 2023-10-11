@@ -6,14 +6,34 @@ import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
 wwindow.onload = function() {
-  const who = ["My dog", "the cat", "Her turtle", "My bird"];
-  const action = ["ate", "peed", "crushed", "broke"];
-  const what = ["my homework", "the keys", "the car", "the cake"];
+  const who = [
+    "Mi perro",
+    "La bebé",
+    "El alien",
+    "Un duende de 3 cabezas",
+    "Un unicornio multicolor"
+  ];
+  const action = [
+    "se comió",
+    "robó",
+    "pintó con tinta invisible",
+    "lanzó al lago",
+    "escondió en el horno",
+  ];
+  const what = [
+    "los deberes",
+    "todos los relojes de la casa",
+    "la carroza",
+    "la tarta de la boda",
+    "las canicas amarillas",
+  ];
   const when = [
-    "at night",
-    "right on time",
-    "after work",
-    "while I was crying"
+    "en el cambio de hora",
+    "justo al despertarme",
+    "cuando estaba de cañas",
+    "cuando salia de casa",
+    "por la noche",
+    "en el entierro del panadero"
   ];
 
   function generarExcusa() {
