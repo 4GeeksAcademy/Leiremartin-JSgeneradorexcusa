@@ -6,28 +6,28 @@ import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
 wwindow.onload = function() {
-  const who = [
+  const WHO = [
     "Mi perro",
     "La bebé",
     "El alien",
     "Un duende de 3 cabezas",
     "Un unicornio multicolor"
   ];
-  const action = [
+  const ACTION = [
     "se comió",
     "robó",
     "pintó con tinta invisible",
     "lanzó al lago",
     "escondió en el horno",
   ];
-  const what = [
+  const WHAT = [
     "los deberes",
     "todos los relojes de la casa",
     "la carroza",
     "la tarta de la boda",
     "las canicas amarillas",
   ];
-  const when = [
+  const WHEN = [
     "en el cambio de hora",
     "justo al despertarme",
     "cuando estaba de cañas",
@@ -37,14 +37,14 @@ wwindow.onload = function() {
   ];
 
   function generarExcusa() {
-    const randomWho = who[Math.floor(Math.random() * who.length)];
-    const randomAction = action[Math.floor(Math.random() * action.length)];
-    const randomWhat = what[Math.floor(Math.random() * what.length)];
-    const randomWhen = when[Math.floor(Math.random() * when.length)];
+    const RANDOMWHO = WHO[Math.floor(Math.random() * WHO.length)];
+    const RAMDOMACTION = ACTION[Math.floor(Math.random() * ACTION.length)];
+    const RANDOMWHAT = WHAT[Math.floor(Math.random() * WHAT.length)];
+    const RANDOMWHEN = WHEN[Math.floor(Math.random() * WHEN.length)];
 
-    const excusaGenerada = `${randomWho} ${randomAction} ${randomWhat} ${randomWhen}.`;
+    const EXCUSAGENERADA = `${RANDOMWHO} ${RAMDOMACTION} ${RANDOMWHAT} ${RANDOMWHEN}.`;
 
-    document.getElementById("excuse").innerHTML = excusaGenerada;
+    document.getElementById("excuse").innerHTML = EXCUSAGENERADA;
   }
 
   document
